@@ -3,6 +3,5 @@ services:
     name: nurture-her
     env: static
     region: oregon
-    plan: free
     buildCommand: npm install --include=dev && npm run build
     staticPublishPath: dist
