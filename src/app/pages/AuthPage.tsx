@@ -8,8 +8,7 @@ import { useAuth } from '../contexts/AuthContext';
 import { toast } from 'sonner';
 import { db } from '../utils/database';
 import { localDB } from '../utils/localDatabase';
-import siteLogo from 'figma:asset/3417faa7ffe484720a74e044251ea8057b0011dc.png';
-
+const siteLogo = "/3417faa7ffe484720a74e044251ea8057b0011dc.png";
 export function AuthPage() {
   const [isLogin, setIsLogin] = useState(true);
   const [isForgotPassword, setIsForgotPassword] = useState(false);
