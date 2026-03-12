@@ -1,12 +1,8 @@
 services:
   - type: web
     name: nurture-her
-    env: node
+    env: static
     region: oregon
     plan: free
-    buildCommand: npm install && npm run build
-    startCommand: npx serve -s dist -l $PORT
-    healthCheckPath: /
-    envVars:
-      - key: NODE_VERSION
-        value: 20
+    buildCommand: npm install --include=dev && npm run build
+    staticPublishPath: dist
