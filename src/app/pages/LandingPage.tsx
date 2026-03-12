@@ -160,7 +160,7 @@ export function LandingPage() {
               <img
                 src={founderImage}
                 alt="Dr. Sanjana Sao - Founder"
-                className="w-full h-[500px] object-cover object-center"
+                className="w-full h-[500px] object-cover object-top"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-purple-900/60 to-transparent"></div>
               <div className="absolute bottom-0 left-0 right-0 p-8">
