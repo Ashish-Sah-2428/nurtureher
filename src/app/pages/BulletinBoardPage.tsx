@@ -75,7 +75,7 @@ export function BulletinBoardPage() {
                 <img
                   src={founderImage}
                   alt="Dr. Sanjana Sao"
-                  className="rounded-2xl shadow-lg w-full h-[400px] object-cover"
+                  className="rounded-2xl shadow-lg w-full h-[400px] object-cover object-top"
                 />
               </div>
             </div>
